@@ -72,4 +72,3 @@ A secure dictionary application with fuzzy search capabilities. Users must log i
 - `POST /logout` - Logout and clear session
 - `GET /validate-session` - Validate user session
 - `POST /search` - Search for word in dictionary
-# Fuzzy-Search-Dictionary
