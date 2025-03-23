@@ -1,0 +1,17 @@
+{
+  "hello": "Used as a greeting or to begin a conversation.",
+  "world": "The earth, together with all of its countries, peoples, and natural features.",
+  "python": "A high-level programming language.",
+  "react": "A JavaScript library for building user interfaces.",
+  "javascript": "A programming language commonly used for creating interactive effects within web browsers.",
+  "computer": "An electronic device for storing and processing data.",
+  "programming": "The process of designing and building an executable computer program.",
+  "algorithm": "A process or set of rules to be followed in calculations or other problem-solving operations.",
+  "database": "A structured set of data held in a computer, especially one that is accessible in various ways.",
+  "interface": "A point where two systems, subjects, organizations, etc. meet and interact.",
+  "security": "The state of being free from danger or threat.",
+  "network": "A group or system of interconnected people or things.",
+  "internet": "A global computer network providing a variety of information and communication facilities.",
+  "authentication": "The process of verifying the identity of a person or device.",
+  "authorization": "The process of giving someone permission to do or have something."
+}

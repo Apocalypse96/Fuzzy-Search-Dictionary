@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Comic Neue", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply bg-comic-bg text-comic-text;
+}
+
+/* Comic-style button */
+.btn-comic {
+  @apply font-comic border-3 border-black bg-comic-primary text-black px-4 py-1 rounded-lg 
+         shadow-comic transition-all hover:translate-x-[-2px] hover:translate-y-[-2px] 
+         hover:shadow-comic-lg active:translate-x-[1px] active:translate-y-[1px] active:shadow-none;
+}
+
+/* Comic-style input */
+.input-comic {
+  @apply font-comic border-2 border-comic-border rounded-md bg-comic-highlight 
+         text-comic-text py-2 px-3 focus:ring-2 focus:ring-comic-accent 
+         focus:border-comic-accent transition-colors shadow-inner;
+}
+
+/* Comic-style card */
+.card-comic {
+  @apply bg-comic-card border-2 border-comic-border p-4 rounded-lg 
+         shadow-md hover:shadow-lg transition-shadow;
+}
+
+/* Comic speech bubble */
+.speech-bubble {
+  @apply relative bg-comic-bg border-2 border-comic-border px-4 py-2 rounded-lg;
+}
+
+.speech-bubble:after {
+  content: "";
+  @apply absolute w-4 h-4 bg-comic-bg border-r-2 border-b-2 border-comic-border 
+         transform rotate-45 -bottom-2 left-6;
+}
+
+/* Comic-style text headlines */
+.comic-title {
+  @apply font-title text-comic-primary;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.search-result-transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.pop-in {
+  animation: pop-in 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
