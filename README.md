@@ -1,5 +1,7 @@
 # Secure Fuzzy Search Dictionary
 
+[Screencast from 2025-03-24 15-22-45.webm](https://github.com/user-attachments/assets/db457b1c-4f69-40ae-9005-bd9b014eb814)
+
 
 
 
