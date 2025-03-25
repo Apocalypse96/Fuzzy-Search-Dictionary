@@ -1,5 +1,8 @@
 # Secure Fuzzy Search Dictionary
 
+
+
+
 A secure dictionary application with fuzzy search capabilities. Users must log in to access the dictionary. When searching for words, the system finds exact matches or suggests the closest matching words.
 
 ## Features
@@ -28,6 +31,7 @@ A secure dictionary application with fuzzy search capabilities. Users must log i
    ```
 
 2. Install dependencies:
+[Screencast from 2025-03-24 15-22-45.webm](https://github.com/user-attachments/assets/3301a27c-d6a0-4b09-9c86-8941f8fe3b77)
 
    ```
    pip install -r requirements.txt
